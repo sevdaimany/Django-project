@@ -6,5 +6,10 @@
 </head>
 <body>
     <h1>articles list</h1>
+    {% for article in articles %}
+    <h2><a href="#">{{article.title}}</a></h2>
+    <p>{{article.body}}</p>
+    <p>{{article.date}}</p>
+    {% endfor%}
 </body>
 </html>
