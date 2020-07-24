@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir ='ltr'>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block article%}
+        {%endblock%}
+</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <div class = "wrapper">
+    {% block content%}
+    {% endblock%}
+  </div>
+</body>
+</html>
