@@ -1,6 +1,7 @@
 from django.shortcuts import render ,HttpResponse;
 from . import models
 from django.contrib.auth.decorators import login_required
+from . import forms
 
 # Create your views here.
 
@@ -18,4 +19,5 @@ def article_detail(request,slug):
 
 @login_required(login_url = "/accounts/login")
 def create_article(request):
-    return render(request,'articles/create_article.html')
+    form = forms.CreateArticle()
+    return render(request,'articles/create_article.html',{'form':form})
