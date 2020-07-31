@@ -1,8 +1,7 @@
-from django import form
+from django import forms
 from . import models
 
 class CreateArticle(forms.ModelForm):
     class Meta:
-        form = models.Article
+        model = models.Article
         fields = ['title','slug','body','image']
-        
