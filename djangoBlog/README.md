@@ -45,13 +45,11 @@ my first django project for practicing .
 
    2.Go to your fork and ```Clone``` the project to your local machine
 
-   3.Install the requirements ```pip install -r requirement.txt```
+   3.activate virtualenv
 
-   4.activate virtualenv
+   4.apply the migrations ```python manage.py migrate```
 
-   5.apply the migrations ```python manage.py migrate```
-
-   6.Finally, run the development server ```python manage.py 
+   5.Finally, run the development server ```python manage.py 
 runserver```
 
 
@@ -72,14 +70,14 @@ to login :
 
 ## Screen shots
 
-articles list 
+*articles list 
 
 ![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/articles.png)
 
-article
+*article
 
 ![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/article.png)
 
-signup
+*signup
 
 ![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/signup.png)
