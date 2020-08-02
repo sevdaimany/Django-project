@@ -70,14 +70,14 @@ to login :
 
 ## Screen shots
 
-*articles list 
+ * articles list 
 
 ![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/articles.png)
 
-*article
+ * article
 
 ![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/article.png)
 
-*signup
+ * signup
 
 ![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/signup.png)
