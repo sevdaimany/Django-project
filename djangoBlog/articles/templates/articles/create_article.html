@@ -4,7 +4,7 @@
     <h1>
         create your article!
     </h1>
-    <form class="site_form" action="{% url 'articles:create' %}" method="post" enctype="multipart/form-data">
+    <form class="site-form" action="{% url 'articles:create' %}" method="post" enctype="multipart/form-data">
         {{form}}
         {% csrf_token %}
         <input type="submit" name="" value="create">
