@@ -64,7 +64,7 @@ For example, set username 'admin' and password '123456'
 Then access http://127.0.0.1:8080/admin, type the username and password 
 to login :
 
-![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/admin.png)
+![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/pictures/admin.png)
 
 
 
@@ -72,12 +72,12 @@ to login :
 
  * articles list 
 
-![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/articles.png)
+![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/pictures/articles.png)
 
  * article
 
-![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/article.png)
+![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/pictures/article.png)
 
  * signup
 
-![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/djangoBlog/pictures/signup.png)
+![github-octocat](https://github.com/sevdaimany/Django-project/blob/master/pictures/signup.png)
